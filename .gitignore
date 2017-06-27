@@ -1,6 +1,7 @@
 RemoteSystemsTempFiles/
 
 .metadata/
+.recommenders/
 
 assignments/.classpath
 assignments/.gitignore
