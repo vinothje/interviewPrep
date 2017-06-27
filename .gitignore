@@ -1,0 +1,9 @@
+RemoteSystemsTempFiles/
+
+.metadata/
+
+assignments/.classpath
+assignments/.gitignore
+assignments/.project
+assignments/.settings/org.eclipse.jdt.core.prefs
+
