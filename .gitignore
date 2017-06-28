@@ -1,5 +1,11 @@
 RemoteSystemsTempFiles/
 
+.idea/
+assignments/.idea/
+assignments/assignments.iml
+assignments/out/
+
+
 .metadata/
 .recommenders/
 
