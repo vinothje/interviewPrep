@@ -1,6 +1,19 @@
 package LinkedList;
 import java.io.*;
 
+/*
+  Output :
+
+Input : 10->20->30->
+Output : 30->20->10->
+
+Input : 0->
+Output : 0->
+
+Input : 10->20->
+Output : 20->10->
+ */
+
 class ReverseLinkedList {
     static Node head;
 
