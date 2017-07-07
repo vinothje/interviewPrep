@@ -1,5 +1,7 @@
 RemoteSystemsTempFiles/
 
+.classpath
+.project
 .idea/
 assignments/.idea/
 assignments/assignments.iml
@@ -14,3 +16,4 @@ assignments/.gitignore
 assignments/.project
 assignments/.settings/org.eclipse.jdt.core.prefs
 
+/bin/
