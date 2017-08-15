@@ -22,15 +22,21 @@ public class FirstOccurance {
 		// TODO Auto-generated method stub
 		
 		int[] arr = new int[]{1,1,2,2,2,2,3,4};
-		System.out.println("result of 2:" + solve(arr, 0, arr.length, 2));
-		System.out.println("result of 1:" + solve(arr, 0, arr.length, 1));
-		System.out.println("result of 3:" + solve(arr, 0, arr.length, 3));
+		System.out.println("result of 2:" + solve(arr, 0, arr.length-1, 2));
+		System.out.println("result of 1:" + solve(arr, 0, arr.length-1, 1));
+		System.out.println("result of 3:" + solve(arr, 0, arr.length-1, 3));
 		System.out.println();
 		
 		int[] arr1 = new int[]{2,3,3,3,4};
-		System.out.println("result of 2:" + solve(arr1, 0, arr1.length, 2));
-		System.out.println("result of 1:" + solve(arr1, 0, arr1.length, 1));
-		System.out.println("result of 3:" + solve(arr1, 0, arr1.length, 3));
+		System.out.println("result of 2:" + solve(arr1, 0, arr1.length-1, 2));
+		System.out.println("result of 1:" + solve(arr1, 0, arr1.length-1, 1));
+		System.out.println("result of 3:" + solve(arr1, 0, arr1.length-1, 3));
+		System.out.println();
+
+		int[] arr2 = new int[]{2,2,2,2,2,2};
+		System.out.println("result of 2:" + solve(arr2, 0, arr2.length-1, 2));
+		System.out.println("result of 1:" + solve(arr2, 0, arr2.length-1, 1));
+		System.out.println("result of 3:" + solve(arr2, 0, arr2.length-1, 3));
 	}
 
 }
